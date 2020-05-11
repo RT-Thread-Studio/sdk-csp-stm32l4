@@ -7,6 +7,7 @@
  * Date           Author       Notes
  * 2019-10-26     ChenYong     first version
  * 2020-01-08     xiangxistu   add HSI configuration
+ * 2020-05-11     chenyaxing   add RCC_PLLP_SUPPORT check
  */
 
 #include <board.h>
@@ -32,7 +33,9 @@ void system_clock_config(int target_freq_mhz)
     RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
     RCC_OscInitStruct.PLL.PLLM = 8;
     RCC_OscInitStruct.PLL.PLLN = target_freq_mhz;
+#if defined(RCC_PLLP_SUPPORT)
     RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV7;
+#endif
     RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
     RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
     if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
