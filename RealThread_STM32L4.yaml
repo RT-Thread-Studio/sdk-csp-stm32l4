@@ -13,7 +13,7 @@ series:
     It delivers 100 DMIPS based on its ARM Cortex-M4 core with FPU and ST ART Accelerator at 80 MHz.
 
     STM32L4 microcontrollers offer dynamic voltage scaling to balance power consumption with processing demand, low-power peripherals (LP UART, LP timers) available in Stop mode, safety and security features, smart and numerous peripherals, advanced and low-power analog peripherals such as op amps, comparators, LCD, 12-bit DACs and 16-bit ADCs (hardware oversampling).
-  series_name: RealThread_STM32L4xx
+  series_name: STM32L4
   peripheral: {}
   sub_series:
   - sub_series_name: STM32L412
