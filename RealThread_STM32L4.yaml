@@ -2,9 +2,10 @@
 vendor: RealThread
 dvendor: STMicroelectronics
 name: RealThread_STM32L4
-version: 1.0.0
+version: 0.1.6
+yaml_version: 1
 type: Chip_Support_Packages
-family_name: STM32
+family_name: STM32L4
 series:
   description: |-
     ST has built a new architecture to reach best-in-class ultra-low-power figures thanks to its high flexibility.
