@@ -6,6 +6,7 @@
  * Change Logs:
  * Date           Author       Notes
  * 2018-11-7      SummerGift   first version
+ * 2020-05-20     chenyaxing   add hw_board_init
  */
 
 #include "drv_common.h"

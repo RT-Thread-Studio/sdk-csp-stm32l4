@@ -213,7 +213,7 @@ static long stm32_gpio_clk_enable(GPIO_TypeDef *gpiox)
     return 0;
 }
 
-char * up_char(char * c)
+static int up_char(char * c)
 {
     if ((*c >= 'a') && (*c <= 'z'))
     {

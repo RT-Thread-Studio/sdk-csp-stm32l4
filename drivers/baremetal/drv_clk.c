@@ -41,7 +41,7 @@ void system_clock_config(int target_freq_mhz)
     RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
     if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
     {
-//    Error_Handler();
+       Error_Handler();
     }
     /** Initializes the CPU, AHB and APB busses clocks
      */
@@ -53,7 +53,7 @@ void system_clock_config(int target_freq_mhz)
 
     if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_4) != HAL_OK)
     {
-//    Error_Handler();
+        Error_Handler();
     }
 }
 
