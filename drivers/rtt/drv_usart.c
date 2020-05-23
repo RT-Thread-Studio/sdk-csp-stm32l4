@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2006-2018, RT-Thread Development Team
+ * Copyright (c) 2006-2020, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -8,6 +8,7 @@
  * 2018-10-30     SummerGift   first version
  * 2020-05-23     chenyaxing   modify stm32_uart_config
  */
+
 #include "string.h"
 #include "stdlib.h"
 #include "drv_common.h"
