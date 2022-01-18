@@ -437,7 +437,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l412xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
