@@ -726,7 +726,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l422xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l422xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -1334,7 +1334,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l431xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -1494,7 +1494,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l432xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l432xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -1974,7 +1974,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l433xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l433xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -2102,7 +2102,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l442xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l442xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -2454,7 +2454,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l443xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l443xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -2998,7 +2998,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l471xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l471xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -3469,7 +3469,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l475xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l475xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -4013,7 +4013,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l476xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -4139,7 +4139,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l485xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l485xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -4395,7 +4395,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l486xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l486xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -4875,7 +4875,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l451xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l451xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -5355,7 +5355,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l452xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l452xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -5643,7 +5643,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l462xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l462xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -6027,7 +6027,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l496xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l496xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -6347,7 +6347,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4a6xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4a6xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -6764,7 +6764,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4r5xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4r5xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -6952,7 +6952,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4r7xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4r7xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -7364,7 +7364,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4r9xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4r9xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -7616,7 +7616,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4s5xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4s5xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -7804,7 +7804,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4s7xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4s7xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -8024,7 +8024,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4s9xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4s9xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -8305,7 +8305,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4q5xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4q5xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
@@ -8591,7 +8591,7 @@ series:
         files:
         - libraries\CMSIS\Device\ST\STM32L4xx\Source\Templates\gcc\startup_stm32l4p5xx.S
         - libraries\CMSIS\Device\ST\STM32L4xx\Include\stm32l4p5xx.h
-        - libraries\CMSIS\Lib\GCC
+        - libraries\CMSIS\DSP\Lib\GCC
       armcc:
         entry_point: none
         link_script: none
